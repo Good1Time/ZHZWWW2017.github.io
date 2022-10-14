@@ -1,0 +1,121 @@
+@import url(../home-css/reset.css);
+
+body {
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+}
+/* 公共样式 */
+.fL{
+    float: left;
+}
+.fR{
+    float: right;
+}
+.clearfix::after{
+content: "";
+display: block;
+clear: both;
+}
+/* 公共样式结束 */
+
+/* 头部开始 */
+.home-container .header {
+    width: 100%;
+    height: 60px;
+    background-color: #aaa;
+}
+
+/* 头部结束 */
+
+/* 主体开始 */
+/* 主题统一样式 */
+.home-container .article .section {
+    width: 75%;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.home-container .article .section:nth-child(even) {
+    background-color: #cccccc4d;
+}
+
+/* 主题统一样式结束 */
+
+/* 头像开始 */
+.home-container .article .myicon {
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    /* padding-top: 50px; */
+    margin: 0 auto;
+}
+
+.home-container .article .myicon img {
+    margin: 0;
+    border-radius: 50%;
+}
+
+/* 头像结束 */
+/* 正文内容开始 */
+.home-container .article .section h1 {
+    font-size: 32px;
+}
+
+/* 正文内容结束 */
+/* 主体结束 */
+/* 页尾开始 */
+.home-container .footer {
+    width: 100%;
+    height: 40px;
+    background-color: #aaa0;
+    font-size: 14px;
+}
+/* 统一一下footer区域<a>的样式 */
+.home-container .footer a:link,
+.home-container .footer a:valid{
+color: #000;
+}
+.home-container .footer a:hover{
+    color: #f50;
+}
+.home-container .footer a:active{
+color: #fff;
+background-color: #008c8c;
+}
+/* 统一一下footer区域<a>的样式结束 */
+.home-container .footer .footer-container{
+    width: 75%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.home-container .footer .footer-container .left ul li,
+.home-container .footer .footer-container .right ul li{
+    display: inline-block;
+    line-height: 40px;
+    
+}
+.home-container .footer .footer-container .left ul li span,
+.home-container .footer .footer-container .right ul li span{
+    margin-right: 5px;
+}
+
+
+/* 页尾结束 */
+
+
+/* love开始 */
+.home-container .article .section .love{
+    font-size: 24px;
+    text-align: right;
+    
+}
+.home-container .article .section .love p{
+    margin-bottom: 10px;
+}
+.home-container .article .section .love p i{
+color: red;
+}
+/* love结束 */
