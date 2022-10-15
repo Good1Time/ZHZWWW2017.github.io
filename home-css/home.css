@@ -45,8 +45,8 @@ clear: both;
 
 /* 头像开始 */
 .home-container .article .myicon {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     box-sizing: border-box;
     /* padding-top: 50px; */
     margin: 0 auto;
